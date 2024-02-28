@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input class="display" readonly>
+        <div class="keys">
+            <button onclick="clearDisplay()" class="func">AC</button>
+            <button onclick="deleteNum()" class="func"><svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M980.4 849.5H326.2c-13.6 0-25.3-7.8-31.7-20.4L17.2 537.5c-15.6-16.4-15.6-46.3 0-62.7L299.3 178c7.7-8.1 18.1-11.9 28.5-10.8h652.5c21 0 36.8 18.2 36.8 42.3v597.8c0 24-15.8 42.2-36.7 42.2z m-640.8-60h617.5V227.1H335.4l-265.2 279 269.4 283.4z"  /><path d="M395.929 710.279l446.534-446.534 42.426 42.426-446.534 446.534z"  /><path d="M395.999 306.162l42.426-42.426L884.958 710.27l-42.426 42.426z"  /></svg></button>
+            <button onclick="getPercent()" class="func">%</button>
+            <button onclick="appendToDisplay('/')" class="func">÷</button>
+            <button onclick="appendToDisplay('7')" class="nums">7</button>
+            <button onclick="appendToDisplay('8')" class="nums">8</button>
+            <button onclick="appendToDisplay('9')" class="nums">9</button>
+            <button onclick="appendToDisplay('*')" class="func">×</button>
+            <button onclick="appendToDisplay('4')" class="nums">4</button>
+            <button onclick="appendToDisplay('5')" class="nums">5</button>
+            <button onclick="appendToDisplay('6')" class="nums">6</button>
+            <button onclick="appendToDisplay('-')" class="func">-</button>
+            <button onclick="appendToDisplay('1')" class="nums">1</button>
+            <button onclick="appendToDisplay('2')" class="nums">2</button>
+            <button onclick="appendToDisplay('3')" class="nums">3</button>
+            <button onclick="appendToDisplay('+')" class="func">+</button>
+            <button onclick="appendToDisplay('0')" class="nums">0</button>
+            <button onclick="appendToDisplay('.')" class="nums">.</button>
+            <button onclick="calculate()" class="func">=</button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
