@@ -32,7 +32,7 @@ body .calculator .display {
 }
 body .calculator .keys {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2px;
 }
 body .calculator .keys button {

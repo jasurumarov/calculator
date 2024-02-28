@@ -30,7 +30,7 @@ body {
         }
         .keys {
             display: grid;
-            grid-template-columns: auto;
+            grid-template-columns: repeat(4, 1fr);
             gap: 2px;
             button {
                 background: #777677;
