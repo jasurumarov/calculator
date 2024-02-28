@@ -66,6 +66,10 @@ body .calculator .keys .func {
 body .calculator .keys .nums:active, body .calculator .keys button:first-child:active, body .calculator .keys button:nth-child(2):active, body .calculator .keys button:nth-child(3):active {
   background: #505051;
 }
+body p {
+  margin-top: 80px;
+  font-size: 14px;
+}
 
 @media (max-width: 540px) {
   .calculator {
